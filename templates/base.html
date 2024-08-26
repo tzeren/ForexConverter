@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forex Converter</title>
+</head>
+<body>
+    <h1>FOREX CONVERTER</h1>
+
+    <form method="POST">
+        <label for="fromcurr">From Currency</label>
+        <input id="fromcurr" type="text" name="fromcurr"><br>
+        <label for="tocurr">To Currency</label>
+        <input id="tocurr" type="text" name="tocurr"><br>
+        <label for="fromamt">Amount</label>
+        <input id="fromamt" name="fromamt"><br>
+        <button>Convert</button>
+
+    </form>
+
+    <p>The result is {{symbol}} {{toamount}}</p>
+
+    <p>{{message}}</p>
+</body>
+</html>
